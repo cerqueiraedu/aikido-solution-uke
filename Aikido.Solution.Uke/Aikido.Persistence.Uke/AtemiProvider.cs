@@ -8,20 +8,21 @@ namespace Aikido.Persistence.Uke
     public class AtemiProvider : IProvideAtemi
     {
         private readonly IList<string> _atemiCollection;
-        private Random _rnd;
+        private readonly Random _random;
+        
         public AtemiProvider()
         {
-            _atemiCollection = new List<string>() {
+            _atemiCollection = new List<string> {
                 "tsuki", 
                 "shomen uchi", 
                 "yokomen uchi"
             };
-            _rnd = new Random();
+            _random = new Random();
         }
 
         public Atemi Get()
         {
-            return new Atemi(_atemiCollection[_rnd.Next(_atemiCollection.Count)]);
+            return new Atemi(_atemiCollection[_random.Next(_atemiCollection.Count)]);
         }
     }
 }

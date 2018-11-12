@@ -1,10 +1,9 @@
-﻿using System;
-
+﻿
 namespace Aikido.Domain.Uke.Entities
 {
     public class Atemi
     {
-        public string Name { get; private set; }
+        public string Name { get; }
 
         public Atemi(string name)
         {

@@ -1,5 +1,3 @@
-using System;
-using Aikido.Domain.Uke.Entities;
 using Aikido.Application.Uke.Models;
 
 namespace Aikido.Application.Uke.Interfaces

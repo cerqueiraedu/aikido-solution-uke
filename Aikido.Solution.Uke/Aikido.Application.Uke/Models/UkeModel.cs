@@ -1,7 +1,4 @@
-using System;
 using Aikido.Application.Uke.Interfaces;
-using Aikido.Application.Uke.Models;
-using Aikido.Domain.Uke.Entities;
 
 namespace Aikido.Application.Uke.Models
 {

@@ -6,7 +6,7 @@ namespace Aikido.Domain.Uke.Tests
     [TestFixture]
     public class AtemiTests
     {
-        Atemi _atemi;
+        private Atemi _atemi;
 
         [TestCase("tsuki")]
         [TestCase("shomen uchi")]

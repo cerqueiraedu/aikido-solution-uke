@@ -1,5 +1,4 @@
 using NUnit.Framework;
-using Aikido.Persistence.Uke;
 using Aikido.Domain.Uke.Entities;
 
 namespace Aikido.Persistence.Uke.Tests

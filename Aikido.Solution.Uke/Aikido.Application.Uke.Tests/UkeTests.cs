@@ -9,8 +9,8 @@ namespace Aikido.Application.Uke.Tests
     [TestFixture]
     public class UkeModelTests
     {
-        IDoAtemi _uke;
-        Mock<IProvideAtemi> _atemiProviderMock;
+        private IDoAtemi _uke;
+        private Mock<IProvideAtemi> _atemiProviderMock;
 
         [SetUp]
         public void UkeModel()

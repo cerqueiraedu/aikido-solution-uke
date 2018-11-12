@@ -1,4 +1,3 @@
-using System;
 using Aikido.Domain.Uke.Entities;
 
 namespace Aikido.Application.Uke.Interfaces
